@@ -19,5 +19,7 @@ jobs:
       - run: wget https://update.brisktest.com/brisk/latest/linux-amd64/brisk -O /tmp/brisk
       - run: chmod 700 /tmp/brisk
       - run: /tmp/brisk version
-      - run: /tmp/brisk
+      - name: Run Brisk 
+        shell: 'script -q -e -c "bash {0}"'
+        run: /tmp/brisk
 

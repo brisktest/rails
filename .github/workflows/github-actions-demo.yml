@@ -23,6 +23,6 @@ jobs:
         shell: 'script -q -e -c "bash {0}"'
         run: /tmp/brisk
         env:
-          BRISK_API_TOKEN: ${{ secrets.BRISK_API_TOKEN }}
-          BRISK_API_KEY: ${{ secrets.BRISK_API_KEY }}
+          BRISK_APITOKEN: ${{ secrets.BRISK_API_TOKEN }}
+          BRISK_APIKEY: ${{ secrets.BRISK_API_KEY }}
 

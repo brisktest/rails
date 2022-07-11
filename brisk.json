@@ -1,0 +1,34 @@
+{
+  "commands": [
+    {
+      "commandline": "cd activerecord && bin/test",
+      "args": null,
+      "workDirectory": "",
+      "background": false
+    }
+  ],
+  "buildCommands": [
+    {
+      "commandline": "bundle install",
+      "args": null,
+      "workDirectory": "",
+      "background": false
+    }
+  ],
+  "concurrency": 1,
+  "excludedFromSync": ["log/", ".git/", "node_modules", ".rvm"],
+  "excludedFromWatch": ["log/", ".git/", "log", ".git", "node_modules"],
+  "projectToken": "PjeTNY3IEc",
+  "apiEndpoint": "",
+  "reconnectDelay": 0,
+  "framework": "Rails",
+  "listTestCommand": "cd activerecord && ls test/**/*_test.rb | jq -R -s -c 'split(\"\\n\")[:-1]'",
+  "preListTestCommand": "",
+  "environment": {
+    "MY_ENV": "empty"
+  },
+  "image": "rails",
+  "splitByJUnit": false,
+  "orderedFiles": null,
+  "filterList": ["SOME_FILTER"]
+}

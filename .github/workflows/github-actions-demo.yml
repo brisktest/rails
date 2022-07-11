@@ -16,7 +16,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: wget https://update.brisktest.com/brisk/latest/linux-amd64/brisk /tmp/brisk
+      - run: wget https://update.brisktest.com/brisk/latest/linux-amd64/brisk -O /tmp/brisk
       - run: chmod 700 /tmp/brisk
       - run: /tmp/brisk version
       - run: /tmp/brisk

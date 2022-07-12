@@ -15,7 +15,7 @@
       "background": false
     }
   ],
-  "concurrency": 1,
+  "concurrency": 5,
   "excludedFromSync": ["log/", ".git/", "node_modules", ".rvm"],
   "excludedFromWatch": ["log/", ".git/", "log", ".git", "node_modules"],
   "projectToken": "PjeTNY3IEc",

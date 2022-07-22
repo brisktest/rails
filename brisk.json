@@ -15,7 +15,7 @@
       "background": false
     }
   ],
-  "concurrency": 15,
+  "concurrency": 60,
   "excludedFromSync": ["log/", ".git/", "node_modules", ".rvm"],
   "excludedFromWatch": ["log/", ".git/", "log", ".git", "node_modules"],
   "projectToken": "PjeTNY3IEc",
@@ -30,5 +30,6 @@
   "image": "rails",
   "splitByJUnit": false,
   "orderedFiles": null,
-  "filterList": ["SOME_FILTER"]
+  "filterList": ["SOME_FILTER"],
+  "rebuildFilePaths": ["Gemfile.lock"]
 }

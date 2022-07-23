@@ -30,6 +30,14 @@
   "image": "rails",
   "splitByJUnit": false,
   "orderedFiles": null,
-  "filterList": ["SOME_FILTER"],
+  "filterList": [
+    "no job control in this shell",
+    "Sending command",
+    "Not Building Worker",
+    "Inappropriate ioctl for device",
+    "Run options:",
+    "# Running:",
+    "Using sqlite3"
+  ],
   "rebuildFilePaths": ["Gemfile.lock"]
 }
